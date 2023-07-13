@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Projeto X-Men</title>
+    <link rel="icon" type="image/png" href="./CSS/Imagens/title.png"
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./CSS/Reset.css">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/Responsive.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./CSS/Imagens/logo.svg" 
+        alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1> 
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Possui capacidade de liberar quantidades absurdas de energias vermelhas através dos seus olhos. A emissão intermitente dos raios força Ciclope são barrados com óculos especiais com lentes de quartzo rubi.">
+            <img src="./CSS/Imagens/card-ciclope.jpg"
+              alt="Personagem Ciclope"
+            />
+          </li>
+          <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e telecinese.">
+            <img src="./CSS/Imagens/card-jean-grey.jpg"
+              alt="Personagem Jean Grey"/>
+          </li>
+
+          <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Ela tem o poder de atravessar matéria sólida, campos de energia e rajadas ópticas continuando intacta e também tem o poder de andar no ar.">
+            <img src="./CSS/Imagens/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"/>
+          </li>
+
+          <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Ela é a mutante mais poderosa de todo o Universo Marvel, sendo capaz de controlar as forças da natureza, criando furacões, ventanias, raios, chuvas torrenciais e até mesmo granizo.">
+            <img src="./CSS/Imagens/card-tempestade.jpg"
+              alt="Personagem Tempestade"/>
+          </li>
+
+          <li class="personagem" id="vampira" data-name="Vampira" data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca e no caso de mutantes os poderes e a memória, mas só temporariamente.">
+            <img src="./CSS/Imagens/card-vampira.jpg"
+              alt="Personagem Vampira"/>
+          </li>
+
+          <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Wolverine se destaca por suas garras metálicas, fator de cura regenerativo e super agilidade.">
+            <img src="./CSS/Imagens/card-wolverine.jpg"
+              alt="Personagem Wolverine"/>
+          </li>
+
+          <li class="personagem" id="noturno" data-name="Noturno" data-description="Noturno possui agilidade sobre-humana, capacidade de teletransporte, invisibilidade em sombras profundas e as mãos e os pés aderirem a parede. ">
+            <img src="./CSS/Imagens/card-noturno.jpg"
+              alt="Personagem Noturno"/>
+          </li>
+
+          <li class="personagem" id="magneto" data-name="Magneto" data-description="Ele tem o poder de magnetocinese capaz de gerar campos de força, voar, disparar raios elétricos e até mesmo inverter as polaridades do planeta">
+            <img src="./CSS/Imagens/card-magneto.jpg" 
+              alt="Personagem Magneto"/>
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img class="personagem-grande" src="./CSS/Imagens/card-ciclope.png"
+              alt="Personagem Selecionado"/>
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Possui capacidade de liberar quantidades absurdas de energias vermelhas através dos seus olhos. A emissão intermitente dos raios força Ciclope são barrados com óculos especiais com lentes de quartzo rubi.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./Js/index.js"></script>
+  </body>
+</html>
