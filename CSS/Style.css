@@ -1,11 +1,10 @@
 body {
     background-color: hsl(0, 0%, 0%);
-	font-family: "Oxanium", cursive;
-	color: #ffffff;
+    font-family: "Oxanium", cursive;
+    color: #ffffff;
 }
 
 body::before{
-    content: "";
     background-image: url(../CSS/imagens/bg-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -15,35 +14,36 @@ body::before{
     opacity: 0.2;
     width: 100%;
     z-index: -1;
+    content: "";
 }
 
 .cabecalho {
     justify-content: center;
-	display: flex;
+    display: flex;
     padding: 0px;
 }
 
 .selecao-de-personagens {
     min-height: calc(100vh - 120px);
     justify-content: center;
-	align-items: center;
+    align-items: center;
     display: flex;
-	gap: 30px;
+    gap: 30px;
 }
 
 .selecao-de-personagens .lista-de-personagens {
     justify-content: center;
     flex-wrap: wrap;
-	display: flex;
-	gap: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 .selecao-de-personagens .personagens {
     flex-direction: column;
-	align-items: center;
-	max-width: 585px;
-	display: flex;
-	gap: 25px;
+    align-items: center;
+    max-width: 585px;
+    display: flex;
+    gap: 25px;
 }
 
 .selecao-de-personagens .personagens .titulo {
@@ -51,21 +51,21 @@ body::before{
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-	font-size: 20px;
-	width: 100%;
+    font-size: 20px;
+    width: 100%;
 }
 
 .lista-de-personagens .personagem {
-	border-bottom: 4px solid #47f4ff;
+    border-bottom: 4px solid #47f4ff;
 }
 
 .lista-de-personagens .personagem img {
     height: 100%;
-	width: 100%; 
+    width: 100%; 
 }
 
 .lista-de-personagens .personagem.selecionado {
-	box-shadow: 0px 0px 24px 5px #0271f7;
+    box-shadow: 0px 0px 24px 5px #0271f7;
 }
 
 .personagem-selecionado {
